@@ -12,7 +12,7 @@ def verificarPosicaoMouse():
 def verificarMouseParadoDoisMinutos():
     global ultimaPosicaoMouse
 
-    sleep(3)
+    sleep(90)
     if(ultimaPosicaoMouse == verificarPosicaoMouse()):
         ultimaPosicaoMouse = verificarPosicaoMouse()
         ativarFantasma()        
